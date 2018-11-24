@@ -37,8 +37,8 @@ Beryllium Bullet GUI wallet.
 The build steps in detail:
 
 1. Install *Inno Setup*. You can get it from [here](http://www.jrsoftware.org/isdl.php)
-2. Get the Inno Setup script plus related files by cloning the whole [monero-gui GitHub repository](https://github.com/monero-project/monero-gui); you will only need the files in the installer directory `installers\windows` however. Depending on development state, additionally you may have to checkout a specific branch, like `release-v0.13`.
-3. The setup script is written to take the GUI wallet files from a subdirectory named `bin`; so create `installers\windows\bin`, get the zip file of the GUI wallet from [here](https://getmonero.org/downloads/), unpack it somewhere, and copy all the files and subdirectories in the single subdirectory there (currently named `monero-gui-0.13.0.4`) to this `bin` subdirectory
+2. Get the Inno Setup script plus related files by cloning the whole [uplexa-gui GitHub repository](https://github.com/uplexa/uplexa-gui); you will only need the files in the installer directory `installers\windows` however. Depending on development state, additionally you may have to checkout a specific branch, like `release-v0.13`.
+3. The setup script is written to take the GUI wallet files from a subdirectory named `bin`; so create `installers\windows\bin`, get the zip file of the GUI wallet from [here](https://getmonero.org/downloads/), unpack it somewhere, and copy all the files and subdirectories in the single subdirectory there (currently named `uplexa-gui-0.13.0.4`) to this `bin` subdirectory
 4. Start Inno Setup, load `Monero.iss` and compile it
 5. The result i.e. the finished installer will be the file `mysetup.exe` in the `installers\windows\Output` subdirectory 
 

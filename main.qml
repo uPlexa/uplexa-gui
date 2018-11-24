@@ -1782,7 +1782,7 @@ ApplicationWindow {
     }
 
     function checkUpdates() {
-        walletManager.checkUpdatesAsync("monero-gui", "gui")
+        walletManager.checkUpdatesAsync("uplexa-gui", "gui")
     }
 
     Timer {

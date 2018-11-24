@@ -7,7 +7,7 @@ Copyright (c) 2014-2018, The Monero Project
 - Web: [getmonero.org](https://getmonero.org)
 - Forum: [forum.getmonero.org](https://forum.getmonero.org)
 - Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
-- Github: [https://github.com/monero-project/monero-gui](https://github.com/monero-project/monero-gui)
+- Github: [https://github.com/uplexa/uplexa-gui](https://github.com/uplexa/uplexa-gui)
 - IRC: [#monero-dev on Freenode](irc://chat.freenode.net/#monero-dev)
 
 ## Vulnerability response
@@ -108,12 +108,12 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 3. Clone repository
 
-    `git clone https://github.com/monero-project/monero-gui.git`
+    `git clone https://github.com/uplexa/uplexa-gui.git`
 
 4. Build
 
     ```
-    cd monero-gui
+    cd uplexa-gui
     QT_SELECT=5 ./build.sh
     ```
 
@@ -153,13 +153,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the monero-gui repository
+6. Grab an up-to-date copy of the uplexa-gui repository
 
-  `git clone https://github.com/monero-project/monero-gui.git`
+  `git clone https://github.com/uplexa/uplexa-gui.git`
 
 7. Go into the repository
 
-  `cd monero-gui`
+  `cd uplexa-gui`
 
 8. Start the build
 
@@ -219,13 +219,13 @@ The Monero GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not off
 6. Clone repository
 
     ```
-    git clone https://github.com/monero-project/monero-gui.git
+    git clone https://github.com/uplexa/uplexa-gui.git
     ```
 
 7. Build
 
     ```
-    cd monero-gui
+    cd uplexa-gui
     ./build.sh
     cd build
     make deploy
