@@ -2890,8 +2890,8 @@ Vergoeding: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nieuwe versie van monero-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nieuwe versie van uplexa-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1819"/>

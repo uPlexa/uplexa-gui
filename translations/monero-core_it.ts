@@ -2788,7 +2788,7 @@ Indice indirizzo di spesa: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>E&apos; disponibile una nuova versione dell&apos;interfaccia grafica: %1&lt;br&gt;%2</translation>
     </message>
     <message>

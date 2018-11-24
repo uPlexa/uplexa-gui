@@ -2776,8 +2776,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Új verzió érhető el a monero-wallet-gui -hoz: %1&lt;br&gt;%2</translation>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Új verzió érhető el a uplexa-wallet-gui -hoz: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1819"/>

@@ -2784,7 +2784,7 @@ Indeks adresu do wydawania: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Nowa wersja GUI portfela Monero jest dostępna: %1&lt;br&gt;%2</translation>
     </message>
     <message>

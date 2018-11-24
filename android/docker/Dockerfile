@@ -1,4 +1,4 @@
-FROM monero-android
+FROM uplexa-android
 
 #INSTALL JAVA
 RUN echo "deb http://ftp.fr.debian.org/debian/ jessie-backports main contrib non-free" >> /etc/apt/sources.list
@@ -14,7 +14,7 @@ ENV QT_VERSION 5.8
 
 RUN git clone git://code.qt.io/qt/qt5.git -b ${QT_VERSION} \
     && cd qt5 \
-    && perl init-repository 
+    && perl init-repository
 
 ## Note: Need to use libc++ but Qt does not provide mkspec for libc++.
 ## Their support of it is quite recent and they claim they don't use it by default
@@ -27,16 +27,16 @@ RUN cp -r qt5/qtbase/mkspecs/android-clang qt5/qtbase/mkspecs/android-clang-libc
     && sed -i '17i ANDROID_SOURCES_CXX_STL_INCDIR = $$NDK_ROOT/sources/cxx-stl/llvm-libc++/include' qmake.conf \
     && echo "QMAKE_LIBS_PRIVATE      = -lc++_shared -llog -lz -lm -ldl -lc -lgcc " >> qmake.conf \
     && echo "QMAKE_CFLAGS -= -mfpu=vfp " >> qmake.conf \
-    && echo "QMAKE_CXXFLAGS -= -mfpu=vfp " >> qmake.conf \ 
+    && echo "QMAKE_CXXFLAGS -= -mfpu=vfp " >> qmake.conf \
     && echo "QMAKE_CFLAGS += -mfpu=vfp4 " >> qmake.conf \
-    && echo "QMAKE_CXXFLAGS += -mfpu=vfp4 " >> qmake.conf 
+    && echo "QMAKE_CXXFLAGS += -mfpu=vfp4 " >> qmake.conf
 
 ENV ANDROID_API android-21
-    
+
 #ANDROID SDK TOOLS
-RUN echo y | $ANDROID_SDK_ROOT/tools/android update sdk --no-ui --all --filter platform-tools 
+RUN echo y | $ANDROID_SDK_ROOT/tools/android update sdk --no-ui --all --filter platform-tools
 RUN echo y | $ANDROID_SDK_ROOT/tools/android update sdk --no-ui --all --filter ${ANDROID_API}
-RUN echo y | $ANDROID_SDK_ROOT/tools/android update sdk --no-ui --all --filter build-tools-25.0.1 
+RUN echo y | $ANDROID_SDK_ROOT/tools/android update sdk --no-ui --all --filter build-tools-25.0.1
 
 ENV CLEAN_PATH $JAVA_HOME/bin:/usr/cmake-3.6.3-Linux-x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
@@ -92,8 +92,8 @@ RUN cp openssl/lib* ${ANDROID_NDK_ROOT}/platforms/${ANDROID_API}/arch-arm/usr/li
 RUN cp boost_${BOOST_VERSION}/android32/lib/lib* ${ANDROID_NDK_ROOT}/platforms/${ANDROID_API}/arch-arm/usr/lib
 RUN cp ZBar/android/obj/local/armeabi-v7a/lib* ${ANDROID_NDK_ROOT}/platforms/${ANDROID_API}/arch-arm/usr/lib
 
-RUN git clone https://github.com/monero-project/monero-gui.git \
-    && cd monero-gui \
+RUN git clone https://github.com/uplexa/uplexa-gui.git \
+    && cd uplexa-gui \
     && git submodule update \
     && CC=arm-linux-androideabi-clang CXX=arm-linux-androideabi-clang++ BOOST_ROOT=/opt/android/boost_1_62_0 \
          BOOST_LIBRARYDIR=${WORKDIR}/boost_${BOOST_VERSION}/android32/lib/ \
@@ -104,4 +104,3 @@ RUN git clone https://github.com/monero-project/monero-gui.git \
          ./build.sh release-android \
     && cd build \
     && make deploy
-

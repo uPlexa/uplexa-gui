@@ -1773,7 +1773,7 @@ ApplicationWindow {
           var hash = parts[1]
           var user_url = parts[2]
           var auto_url = parts[3]
-          var msg = qsTr("New version of monero-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
+          var msg = qsTr("New version of uplexa-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
           notifier.show(msg)
         }
         else {

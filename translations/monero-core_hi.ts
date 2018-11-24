@@ -2749,7 +2749,7 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2746,8 +2746,8 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1787"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>新しいバージョンのmonero-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
+        <source>New version of uplexa-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>新しいバージョンのuplexa-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="634"/>
