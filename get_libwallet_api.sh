@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/monero-project/monero.git
+MONERO_URL=https://github.com/uplexa-project/uplexa.git
 MONERO_BRANCH=master
 
 pushd $(pwd)
@@ -8,41 +8,41 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $ROOT_DIR/utils.sh
 
 INSTALL_DIR=$ROOT_DIR/wallet
-MONERO_DIR=$ROOT_DIR/monero
+MONERO_DIR=$ROOT_DIR/uplexa
 BUILD_LIBWALLET=false
 
-# init and update monero submodule
+# init and update uplexa submodule
 if [ ! -d $MONERO_DIR/src ]; then
-    git submodule init monero
+    git submodule init uplexa
 fi
 git submodule update --remote
 git -C $MONERO_DIR fetch
 git -C $MONERO_DIR checkout master
 
-# get monero core tag
+# get uplexa core tag
 pushd $MONERO_DIR
 get_tag
 popd
-# create local monero branch
+# create local uplexa branch
 git -C $MONERO_DIR checkout -B $VERSIONTAG
 
 git -C $MONERO_DIR submodule init
 git -C $MONERO_DIR submodule update
 
-# Merge monero PR dependencies
+# Merge uplexa PR dependencies
 
 # Workaround for git username requirements
 # Save current user settings and revert back when we are done with merging PR's
 OLD_GIT_USER=$(git -C $MONERO_DIR config --local user.name)
 OLD_GIT_EMAIL=$(git -C $MONERO_DIR config --local user.email)
-git -C $MONERO_DIR config user.name "Monero GUI"
-git -C $MONERO_DIR config user.email "gui@monero.local"
+git -C $MONERO_DIR config user.name "uPlexa GUI"
+git -C $MONERO_DIR config user.email "gui@uplexa.local"
 # check for PR requirements in most recent commit message (i.e requires #xxxx)
 for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do
-    echo "Merging monero push request #$PR"
+    echo "Merging uplexa push request #$PR"
     # fetch pull request and merge
     git -C $MONERO_DIR fetch origin pull/$PR/head:PR-$PR
-    git -C $MONERO_DIR merge --quiet PR-$PR  -m "Merge monero PR #$PR"
+    git -C $MONERO_DIR merge --quiet PR-$PR  -m "Merge uplexa PR #$PR"
     BUILD_LIBWALLET=true
 done
 
@@ -51,14 +51,14 @@ $(git -C $MONERO_DIR config user.name "$OLD_GIT_USER")
 $(git -C $MONERO_DIR config user.email "$OLD_GIT_EMAIL")
 
 # Build libwallet if it doesnt exist
-if [ ! -f $MONERO_DIR/lib/libwallet_merged.a ]; then 
+if [ ! -f $MONERO_DIR/lib/libwallet_merged.a ]; then
     echo "libwallet_merged.a not found - Building libwallet"
     BUILD_LIBWALLET=true
 # Build libwallet if no previous version file exists
-elif [ ! -f $MONERO_DIR/version.sh ]; then 
-    echo "monero/version.h not found - Building libwallet"
+elif [ ! -f $MONERO_DIR/version.sh ]; then
+    echo "uplexa/version.h not found - Building libwallet"
     BUILD_LIBWALLET=true
-## Compare previously built version with submodule + merged PR's version. 
+## Compare previously built version with submodule + merged PR's version.
 else
     source $MONERO_DIR/version.sh
     # compare submodule version with latest build
@@ -72,7 +72,7 @@ else
         echo "Building new libwallet version $GUI_MONERO_VERSION"
         BUILD_LIBWALLET=true
     else
-        echo "latest libwallet ($GUI_MONERO_VERSION) is already built. Remove monero/lib/libwallet_merged.a to force rebuild"
+        echo "latest libwallet ($GUI_MONERO_VERSION) is already built. Remove uplexa/lib/libwallet_merged.a to force rebuild"
     fi
 fi
 
@@ -119,7 +119,7 @@ else
 fi
 
 
-echo "cleaning up existing monero build dir, libs and includes"
+echo "cleaning up existing uplexa build dir, libs and includes"
 rm -fr $MONERO_DIR/build
 rm -fr $MONERO_DIR/lib
 rm -fr $MONERO_DIR/include
@@ -173,7 +173,7 @@ elif [ "$platform" == "linuxarmv7" ]; then
         cmake -D BUILD_TESTS=OFF -D ARCH="armv7-a" -D -D BUILD_64=OFF  -D BUILD_GUI_DEPS=ON -D CMAKE_INSTALL_PREFIX="$MONERO_DIR"  ../..
     fi
 
-## LINUX other 
+## LINUX other
 elif [ "$platform" == "linux" ]; then
     echo "Configuring build for Linux general"
     if [ "$STATIC" == true ]; then
@@ -219,7 +219,7 @@ eval $make_exec  -j$CPU_CORE_COUNT
 eval $make_exec  install -j$CPU_CORE_COUNT
 popd
 
-# Build monerod
+# Build uplexad
 # win32 need to build daemon manually with msys2 toolchain
 if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
     pushd $MONERO_DIR/build/$BUILD_TYPE/src/daemon
