@@ -2435,7 +2435,7 @@ En el cas de Prova de Pagament, no heu d&apos;especificar l&apos;adreça del des
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Benvinguts a Monero!</translation>
     </message>
     <message>
@@ -2525,7 +2525,7 @@ En el cas de Prova de Pagament, no heu d&apos;especificar l&apos;adreça del des
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Benvingud@ a Monero!</translation>
     </message>
     <message>

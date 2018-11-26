@@ -2422,7 +2422,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Velkommen til Monero!</translation>
     </message>
     <message>
@@ -2512,7 +2512,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Velkommen til Monero!</translation>
     </message>
     <message>

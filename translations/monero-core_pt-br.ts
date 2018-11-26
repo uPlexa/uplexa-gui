@@ -2427,7 +2427,7 @@ Para o caso com Spend Proof, você não precisa especificar o endereço do desti
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Bem-vindo ao Monero!</translation>
     </message>
     <message>
@@ -2517,7 +2517,7 @@ Para o caso com Spend Proof, você não precisa especificar o endereço do desti
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Bem-vindo ao Monero!</translation>
     </message>
     <message>

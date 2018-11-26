@@ -2422,7 +2422,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Dobrodošli u Monero!</translation>
     </message>
     <message>
@@ -2512,7 +2512,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Dobrodošli u Monero!</translation>
     </message>
     <message>

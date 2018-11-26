@@ -2416,7 +2416,7 @@ Fer the case wit&apos; Spend Proof, you don&apos;t be needin&apos; to specify th
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Welc&apos;me to U-PLEXAGHHH!</translation>
     </message>
     <message>
@@ -2506,7 +2506,7 @@ Fer the case wit&apos; Spend Proof, you don&apos;t be needin&apos; to specify th
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Welcome to U-PLEXAGHHH!</translation>
     </message>
     <message>

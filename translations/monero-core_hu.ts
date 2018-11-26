@@ -2419,7 +2419,7 @@ Egyszerű költési bizonylat esetén nem kell megadni a kedvezményezett címé
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Üdvözöl a Monero!</translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ Egyszerű költési bizonylat esetén nem kell megadni a kedvezményezett címé
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Üdvözöl a Monero!</translation>
     </message>
     <message>

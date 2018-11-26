@@ -2429,7 +2429,7 @@ U slučaju sa Dokazom Troška, ne morate navesti adresu primaoca.</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Monero Vam želi dobrodošlicu!</translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ U slučaju sa Dokazom Troška, ne morate navesti adresu primaoca.</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Monero Vam želi dobrodošlicu!</translation>
     </message>
     <message>

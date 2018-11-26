@@ -2431,7 +2431,7 @@ V prípade Spend Proof, nie je potrebné špecifikovať prijímateľovu adresu.<
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Vitajte v Monero!</translation>
     </message>
     <message>
@@ -2521,7 +2521,7 @@ V prípade Spend Proof, nie je potrebné špecifikovať prijímateľovu adresu.<
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Vitajte v Monero!</translation>
     </message>
     <message>

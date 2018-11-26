@@ -2430,7 +2430,7 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Moneroへようこそ!</translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Moneroへようこそ!</translation>
     </message>
     <message>

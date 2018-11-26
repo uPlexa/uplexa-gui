@@ -2429,7 +2429,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Välkommen till Monero!</translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Välkommen till Monero!</translation>
     </message>
     <message>

@@ -2436,7 +2436,7 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Vítejte v Monero!</translation>
     </message>
     <message>
@@ -2526,7 +2526,7 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to uPlexa!</source>
         <translation>Vítejte v Monero!</translation>
     </message>
     <message>
