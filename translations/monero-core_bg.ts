@@ -1944,7 +1944,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="552"/>
-        <source>Monero sent successfully</source>
+        <source>uPlexa sent successfully</source>
         <translation>Монеро изратени успешно</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>За всяка транзакция, се удържа малка трансферна такса. Тази опция ви позволява да добавите допълнителна сума, като процент от таксата, към ваша транзакция за да подпомагате развитието на Монеро. Например: 50% автоматично дарение взима трансферна такса от 0.005 XMR и добавя 0.0025 XMR за подпомагане развитието на Монеро.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Monero development.</source>
+        <translation>За всяка транзакция, се удържа малка трансферна такса. Тази опция ви позволява да добавите допълнителна сума, като процент от таксата, към ваша транзакция за да подпомагате развитието на Монеро. Например: 50% автоматично дарение взима трансферна такса от 0.005 UPX и добавя 0.0025 UPX за подпомагане развитието на Монеро.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2681,7 +2681,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="797"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
+        <source>uPlexa sent successfully: %1 transaction(s) </source>
         <translation>Монеро изпратени успешно: %1 транзакция(и)</translation>
     </message>
     <message>

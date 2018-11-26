@@ -1944,7 +1944,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="552"/>
-        <source>Monero sent successfully</source>
+        <source>uPlexa sent successfully</source>
         <translation>Monero sikeresen elküldve</translation>
     </message>
     <message>
@@ -2196,8 +2196,8 @@ Egyszerű költési bizonylat esetén nem kell megadni a kedvezményezett címé
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Minden tranzakció tartalmaz egy tranzakciós díjat. Ehhez a díjhoz hozzáadhatsz egy kisebb adományt a Monero fejlesztőinek. Pl: ha 50%-os adomány van beállítva és a Tx díja 0,005 XMR akkor egy 0,0025 XMR adomány kerül pluszban levonásra, aminek a kedvezményezettjei a Monero fejlesztők.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Monero development.</source>
+        <translation>Minden tranzakció tartalmaz egy tranzakciós díjat. Ehhez a díjhoz hozzáadhatsz egy kisebb adományt a Monero fejlesztőinek. Pl: ha 50%-os adomány van beállítva és a Tx díja 0,005 UPX akkor egy 0,0025 UPX adomány kerül pluszban levonásra, aminek a kedvezményezettjei a Monero fejlesztők.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2679,7 +2679,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="797"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
+        <source>uPlexa sent successfully: %1 transaction(s) </source>
         <translation>Monero sikeresen elküldve: %1 tranzakció(k)</translation>
     </message>
     <message>

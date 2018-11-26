@@ -1864,7 +1864,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="552"/>
-        <source>Monero sent successfully</source>
+        <source>uPlexa sent successfully</source>
         <translation>Monero відправлено успішно</translation>
     </message>
     <message>
@@ -2204,8 +2204,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>За кожну транзакцію стягується невелика комісія. Ця опція дозволяє вам додати додаткову суму у відсотках від цієї комісії до транзакції, для підтримки розробки Monero. Наприклад, 50% автодотаціі беруть плату за транзакцію 0,005 XMR і додають 0,0025 XMR на користь підтримки розробки Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Monero development.</source>
+        <translation>За кожну транзакцію стягується невелика комісія. Ця опція дозволяє вам додати додаткову суму у відсотках від цієї комісії до транзакції, для підтримки розробки Monero. Наприклад, 50% автодотаціі беруть плату за транзакцію 0,005 UPX і додають 0,0025 UPX на користь підтримки розробки Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2754,7 +2754,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="797"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
+        <source>uPlexa sent successfully: %1 transaction(s) </source>
         <translation>Monero успішно відправлені: %1 транзакция(й) </translation>
     </message>
     <message>
@@ -2783,7 +2783,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="871"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Цей адрес отримав %1 XMR, із %2 підтвердженнями(и)</translation>
+        <translation>Цей адрес отримав %1 UPX, із %2 підтвердженнями(и)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="882"/>
@@ -2858,7 +2858,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="868"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Цей адрес отримав %1 XMR, але транзакція ще не була підтверджена майнерами</translation>
+        <translation>Цей адрес отримав %1 UPX, але транзакція ще не була підтверджена майнерами</translation>
     </message>
     <message>
         <location filename="../main.qml" line="875"/>

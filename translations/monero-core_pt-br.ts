@@ -1840,7 +1840,7 @@ O arquivo de cache da carteira antiga será renomeado e poderá ser restaurado p
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="552"/>
-        <source>Monero sent successfully</source>
+        <source>uPlexa sent successfully</source>
         <translation>Monero enviado com sucesso</translation>
     </message>
     <message>
@@ -2204,8 +2204,8 @@ Para o caso com Spend Proof, você não precisa especificar o endereço do desti
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Para cada transação uma pequena taxa é coletada. Esta opção permite você adicionar uma quantidade adicional (porcentagem desta taxa) para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação em uma taxa de transferência de 0.005 XMR adicionará 0.0025 XMR na taxa para ajudar o desenvolvimento do projeto.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 UPX and add a 0.0025 UPX to support Monero development.</source>
+        <translation>Para cada transação uma pequena taxa é coletada. Esta opção permite você adicionar uma quantidade adicional (porcentagem desta taxa) para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação em uma taxa de transferência de 0.005 UPX adicionará 0.0025 UPX na taxa para ajudar o desenvolvimento do projeto.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2702,7 +2702,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="797"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
+        <source>uPlexa sent successfully: %1 transaction(s) </source>
         <translation>Monero enviado com sucesso: %1 transação(ões) </translation>
     </message>
     <message>
