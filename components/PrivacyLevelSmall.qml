@@ -73,7 +73,7 @@ Item {
             //radius: 2
             width: row.x
 
-            color: "#FF6C3C"
+            color: "#0c8491"
 
             Timer {
                 interval: 500

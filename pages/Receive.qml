@@ -192,7 +192,7 @@ Rectangle {
             LabelSubheader {
                 Layout.fillWidth: true
                 textFormat: Text.RichText
-                text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                text: "<style type='text/css'>a {text-decoration: none; color: #0c8491; font-size: 14px;}</style>" +
                       qsTr("Addresses") +
                       "<font size='2'> </font><a href='#'>" +
                       qsTr("Help") + "</a>" +
@@ -421,7 +421,7 @@ Rectangle {
                 LabelSubheader {
                     Layout.fillWidth: true
                     textFormat: Text.RichText
-                    text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                    text: "<style type='text/css'>a {text-decoration: none; color: #0c8491; font-size: 14px;}</style>" +
                           qsTr("QR Code") +
                           "<font size='2'> </font><a href='#'>" +
                           qsTr("Help") + "</a>" +
@@ -507,7 +507,7 @@ Rectangle {
                 LabelSubheader {
                     Layout.fillWidth: true
                     textFormat: Text.RichText
-                    text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                    text: "<style type='text/css'>a {text-decoration: none; color: #0c8491; font-size: 14px;}</style>" +
                           qsTr("Tracking") +
                           "<font size='2'> </font><a href='#'>" +
                           qsTr("Help") + "</a>" +
