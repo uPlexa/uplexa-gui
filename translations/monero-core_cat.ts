@@ -374,7 +374,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your uPlexa keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation>AVÍS: No reutilitzis les claus de Monero en una altra bifurcació, A MENYS que aquesta bifurcació incorpori mitigacions en la reutilització de claus. Fer-ho, perjudicarà la teva privacitat.</translation>
     </message>
     <message>
@@ -626,7 +626,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the uPlexa network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some uPlexa. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>El minat amb el teu ordinador ajuda a enfortir la xarxa Monero. Com més gent minant, més difícil és atacar la xarxa, i cada petit esforç ajuda.&lt;br&gt; &lt;br&gt;Minar també dóna la petita oportunitat de guanyar algún Monero. La teva màquina crearà hashes buscant solucions a blocs. Si troba un bloc, obtindrà la recompensa associada. Bona sort!</translation>
     </message>
     <message>
@@ -1057,7 +1057,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded uPlexa version: </source>
         <translation>Versió integrada de Monero: </translation>
     </message>
     <message>
@@ -1179,7 +1179,7 @@ El fitxer antic de la memòria cau del moneder serà renombrat i es podrà recup
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the uPlexa network. Less secure, but easier on your computer.</source>
         <translation>Utilitza un servidor de tercers per connectar-se a la xarxa de Monero. Menys segur, però més fàcil pel teu ordinador.</translation>
     </message>
     <message>
@@ -1341,7 +1341,7 @@ El fitxer antic de la memòria cau del moneder serà renombrat i es podrà recup
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by uPlexa wallets as well as wallets from uPlexa clones which reuse the uPlexa keys.</source>
         <translation>Aquesta pàgina et permet interactuar amb la base de dades de signatures d&apos;anell compartida. Aquesta base de dades està pensada per a les monedes de Monero i també per a moneders de clons de Monero que reutilitzen les claus de Monero</translation>
     </message>
     <message>
@@ -1434,7 +1434,7 @@ El fitxer antic de la memòria cau del moneder serà renombrat i es podrà recup
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="285"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on uPlexa on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>Això registra anells utilitzats en les sortides de Monero en una cadena de reutilització de claus, de manera que es pugui reutilitzar el mateix anell evitant minvar la privacitat.</translation>
     </message>
     <message>

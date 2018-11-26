@@ -373,7 +373,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your uPlexa keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation>VARNING: Återanvänd inte din Monero-nyckel på en annan förgrening, SÅVIDA INTE denna förgrening har inbyggda begränsningar för återanvändning. Görs detta så kan din integritet skadas.</translation>
     </message>
     <message>
@@ -625,7 +625,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the uPlexa network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some uPlexa. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>Utvinning med din dator hjälper till att stärka Moneros nätverk. Ju fler som utvinner desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinningen ger dig även möjlighet att tjäna lite Monero. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
@@ -1056,7 +1056,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded uPlexa version: </source>
         <translation>Inbäddad Monero-version: </translation>
     </message>
     <message>
@@ -1178,7 +1178,7 @@ Den gamla plånbokens cache-fil kommer att ändra namn och kan återställas sen
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the uPlexa network. Less secure, but easier on your computer.</source>
         <translation>Använder en tredje-part server som ansluter till Monero-nätverket. Mindre säkert, men mindre krävande för din dator.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ Den gamla plånbokens cache-fil kommer att ändra namn och kan återställas sen
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by uPlexa wallets as well as wallets from uPlexa clones which reuse the uPlexa keys.</source>
         <translation>Denna sida låter dig interagera med den delade ringdatabasen. Denna databas är avsedd att användas av både Monero-plånböcker, och plånböcker för Monero-kloner som återanvänder Moneros nycklar.</translation>
     </message>
     <message>
@@ -1433,7 +1433,7 @@ Den gamla plånbokens cache-fil kommer att ändra namn och kan återställas sen
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="285"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on uPlexa on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>Detta registrerar ringar som använts av utgångar som spenderats på Monero på en kedja som återanvänder nycklar, så att samma ring kan återanvändas för att undvika sekretessproblem.</translation>
     </message>
     <message>

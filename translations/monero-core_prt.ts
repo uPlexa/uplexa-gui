@@ -368,7 +368,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your uPlexa keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation>G&apos;YARRGGHHHHH: Ye best not be reusin&apos; yer U-PLEXAGHHH keys on anoth&apos;r fork, UNLESS thee fork has key reuse mit&apos;gations built in upon thee! Doin&apos; so will be harmin&apos; ye privacy!</translation>
     </message>
     <message>
@@ -625,7 +625,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the uPlexa network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some uPlexa. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>Minin&apos; wit&apos; yer comput&apos;r be helpin&apos; put wind in thee Monero sails. Thee more that ye buckos be minin&apos;, thee hard&apos;r it be fer thee ship to be sunk&apos;n, an&apos; every little rapscalli&apos;n helps.&lt;br&gt; &lt;br&gt;Minin&apos; also be givin&apos; ye a small chance to happ&apos;n upon some o&apos; thee treasur&apos;d U-PLEXAGHHH. Yer comput&apos;r will be creatin&apos; hash&apos;s lookin&apos; fer thee block solut&apos;ons. If ye dig up a block, ye shall be receivin&apos; thee treasure. Good fortun&apos; &apos;n good luck ye scurvy swine!</translation>
     </message>
     <message>
@@ -1056,7 +1056,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded uPlexa version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1172,7 +1172,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the uPlexa network. Less secure, but easier on your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1334,7 +1334,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by uPlexa wallets as well as wallets from uPlexa clones which reuse the uPlexa keys.</source>
         <translation>T&apos;is page be allowin&apos; ye to inter&apos;ct wit&apos; thee shar&apos;d ring datab&apos;se. T&apos;is datab&apos;se be meant fer use by ye U-PLEXAGHHH wall&apos;ts as well as wall&apos;ts from Monero clones which be reusin&apos; thee Monero keys.</translation>
     </message>
     <message>
@@ -1427,7 +1427,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="285"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on uPlexa on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>T&apos;is records rings us&apos;d by thee outputs sp&apos;nt on U-PLEXAGHHH on a key reusin&apos; chain, so thee same ring may be reus&apos;d to avoid privacy issu&apos;s.</translation>
     </message>
     <message>

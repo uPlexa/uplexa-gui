@@ -81,7 +81,7 @@ Rectangle {
         id: mainLayout
         anchors.margins: (isMobile)? 17 : 20
         anchors.topMargin: 40 * scaleRatio
-  
+
         anchors.left: parent.left
         anchors.top: parent.top
         anchors.right: parent.right
@@ -104,7 +104,7 @@ Rectangle {
 
         Text {
             text: qsTr("This page allows you to interact with the shared ring database. " +
-                       "This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.") + translationManager.emptyString
+                       "This database is meant for use by uPlexa wallets as well as wallets from uPlexa clones which reuse the uPlexa keys.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true
             font.family: Style.fontRegular.name
@@ -282,7 +282,7 @@ Rectangle {
             textFormat: Text.RichText
             font.family: Style.fontRegular.name
             font.pixelSize: 14 * scaleRatio
-            text: qsTr("This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
+            text: qsTr("This records rings used by outputs spent on uPlexa on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             color: Style.defaultFontColor
