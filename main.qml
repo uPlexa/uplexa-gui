@@ -45,7 +45,7 @@ import "js/Windows.js" as Windows
 
 ApplicationWindow {
     id: appWindow
-    title: "Monero"
+    title: "uPlexa"
 
     property var currentItem
     property bool whatIsEnable: false
