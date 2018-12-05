@@ -1183,8 +1183,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Щоб отримати список віддалених нод, введіть &apos;Monero remote node&apos; у вашій улюбленій пошуковій системі. Будь ласка, переконайтеся, що обраній ноді можна довіряти.</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Щоб отримати список віддалених нод, введіть &apos;uPlexa remote node&apos; у вашій улюбленій пошуковій системі. Будь ласка, переконайтеся, що обраній ноді можна довіряти.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>

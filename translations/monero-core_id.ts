@@ -1183,7 +1183,7 @@ File cache dompet lama akan diganti namanya dan dapat dikembalikan nanti.</trans
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation>Untuk menemukan simpul jarak jauh, ketik &apos;simpul jarak jauh Monero &apos; ke mesin pencari favorit Anda. Pastikan simpul tersebut dijalankan oleh pihak ketiga yang tepercaya.</translation>
     </message>
     <message>

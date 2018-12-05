@@ -1191,7 +1191,7 @@ El archivo de caché anterior del monedero será renombrado y puede ser posterio
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation>Para encontrar un nodo remoto, escribe &apos;nodo remoto Monero&apos; en tu motor de búsqueda favorito. Por favor asegúrate de que el nodo se ejecute por un tercero confiable.</translation>
     </message>
     <message>

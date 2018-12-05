@@ -1184,7 +1184,7 @@ O ficheiro de cache antigo será renomeado e poderá ser restaurado mais tarde.
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation>Para encontrar um node remoto, escreva &apos;node remoto de Monero&apos; no seu motor de busca favorito. Confirme sempre que o node é gerido por uma entidade confiável.</translation>
     </message>
     <message>

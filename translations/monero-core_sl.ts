@@ -1183,8 +1183,8 @@ Stara datoteka predpomnilnika denarnice bo preimenovana in se jo lahko obnovi po
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Da poiščete oddaljeno vozlišče, vnesite &apos;Monero remote node&apos; v vaš najljubši brskalnik. Prosim, da se prepričate, da vozlišče poganja zaupanja vredna stranka.</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Da poiščete oddaljeno vozlišče, vnesite &apos;uPlexa remote node&apos; v vaš najljubši brskalnik. Prosim, da se prepričate, da vozlišče poganja zaupanja vredna stranka.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>

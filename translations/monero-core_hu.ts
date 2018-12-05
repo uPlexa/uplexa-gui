@@ -1183,8 +1183,8 @@ A régi gyorsítótár fájlja át lesz nevezve és bármikor visszaállítható
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Távoli szerver használatához írd be a kedvenc keresődbe, hogy &apos;Monero remote node&apos;. Bizonyosodj meg róla, hogy a szerver megbízható!</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Távoli szerver használatához írd be a kedvenc keresődbe, hogy &apos;uPlexa remote node&apos;. Bizonyosodj meg róla, hogy a szerver megbízható!</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>

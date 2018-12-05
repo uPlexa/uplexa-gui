@@ -1184,7 +1184,7 @@ El fitxer antic de la memòria cau del moneder serà renombrat i es podrà recup
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation>Per trobar un node remot, escriviu &apos;Monero node remot&apos; al vostre cercador favorit. Assegureu-vos que el node és gestionat per un tercer de confiança.</translation>
     </message>
     <message>

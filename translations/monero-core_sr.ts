@@ -1183,8 +1183,8 @@ Stari fajl keša novčanika će biti preimenovan i može se povratiti kasnije.</
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Da nađete udaljenu nodu, ukucajte &apos;Monero remote node&apos; u vaš omiljeni pretraživač. Molimo proverite da nodom upravlja lice od poverenja.</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Da nađete udaljenu nodu, ukucajte &apos;uPlexa remote node&apos; u vaš omiljeni pretraživač. Molimo proverite da nodom upravlja lice od poverenja.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>

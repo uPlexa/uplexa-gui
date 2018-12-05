@@ -1184,8 +1184,8 @@ Starý soubor s cache pamětí bude přejmenován a může být následně obnov
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Pro nalezení vzdáleného uzlu, zadejte &apos;Monero remote node&apos; ve vašem oblíbeném vyhledávačí. Ověřte si, prosím, že vzdálený uzel provozuje důvěryhodná třetí strana.</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Pro nalezení vzdáleného uzlu, zadejte &apos;uPlexa remote node&apos; ve vašem oblíbeném vyhledávačí. Ověřte si, prosím, že vzdálený uzel provozuje důvěryhodná třetí strana.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>

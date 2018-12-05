@@ -1184,8 +1184,8 @@ Aşağıdaki bilgiler silinecek
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Uzak düğüm bulmak için, göde arama motorunuza &apos;Monero remote node&apos; girin. Lütfen düğümün güvenilir bir üçümcü parti olduğundan emin olun.</translation>
+        <source>To find a remote node, type &apos;uPlexa remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Uzak düğüm bulmak için, göde arama motorunuza &apos;uPlexa remote node&apos; girin. Lütfen düğümün güvenilir bir üçümcü parti olduğundan emin olun.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>
