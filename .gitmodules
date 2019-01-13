@@ -1,4 +1,4 @@
 [submodule "uplexa"]
 	path = uplexa
 	url = https://github.com/uPlexa/uplexa
-  ignore = all
+        ignore = all
