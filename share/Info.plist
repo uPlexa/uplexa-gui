@@ -21,7 +21,7 @@
   <string>uplexa-wallet-gui</string>
 
   <key>CFBundleName</key>
-  <string>Monero GUI</string>
+  <string>uPlexa GUI</string>
 
   <key>CFBundleIdentifier</key>
   <string>org.uplexa.uplexa-wallet-gui</string>
