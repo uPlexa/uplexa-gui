@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/uplexa-project/uplexa.git
+MONERO_URL=https://github.com/uplexa/uplexa.git
 MONERO_BRANCH=master
 
 pushd $(pwd)
