@@ -1,5 +1,6 @@
 ; uPlexa NightCore GUI Wallet Installer for Windows
-; Copyright (c) 2014-2018, uPlexa
+; Copyright (c) 2014-2019, uPlexa
+; Copyright (c) 2014-2019, The Monero Project
 ; See LICENSE
 
 [Setup]
